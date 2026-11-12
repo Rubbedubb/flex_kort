@@ -29,7 +29,12 @@ header {
     align-self: flex-end
 }
 
+.veckans_bok {
+    background-color: green;
+}
+
 .galleri {
     display: flex;
+    flex-wrap: wrap;
     gap: 1.5rem;
 }
