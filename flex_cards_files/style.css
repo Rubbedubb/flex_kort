@@ -14,12 +14,19 @@ header {
 }
 
 .kort {
+    display: flex;
+    flex-direction: column;
     padding: 1rem;
     margin-bottom: 1.5rem;
     background-color: white;
     border: 1px solid #ccc;
     border-radius: 0.5rem;
     flex: 1;
+}
+
+.kort a {
+    margin-top: auto;
+    align-self: flex-end
 }
 
 .galleri {

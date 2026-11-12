@@ -4,5 +4,7 @@ Read this read me file please.
 
 Justify-content använder en när en vanligtvis ska flytta ett/flera föremål vänster<->höger, medan align-items används vanligtvis när en skall flytta ett/flera föremål uppåt<->nedåt.
 
+Att align-self går åt sidan i länkarna i kort fallet är på grund av att flex-direction är inställt till column, då blir align-self tvärtom => vänster<->höger.
+
 Written by,
 Ruben Rahm.
