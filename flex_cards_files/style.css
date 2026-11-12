@@ -14,10 +14,15 @@ header {
 }
 
 .kort {
-    width: 300px;
     padding: 1rem;
     margin-bottom: 1.5rem;
     background-color: white;
     border: 1px solid #ccc;
     border-radius: 0.5rem;
+    flex: 1;
+}
+
+.galleri {
+    display: flex;
+    gap: 1.5rem;
 }
