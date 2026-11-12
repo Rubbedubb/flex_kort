@@ -24,6 +24,13 @@ header {
     flex: 1;
 }
 
+.kort_titel {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
 .kort a {
     margin-top: auto;
     align-self: flex-end
